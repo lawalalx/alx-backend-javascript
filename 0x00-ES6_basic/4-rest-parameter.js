@@ -1,3 +1,3 @@
 export default function returnHowManyArguments(...args) {
-    return `You passed ${args.length} arguments.`;
+    return args.length;
 }
