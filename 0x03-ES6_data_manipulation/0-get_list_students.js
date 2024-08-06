@@ -1,19 +1,19 @@
-/* eslint-disable no-underscore-dangle */
-const getListStudents = () => {
-
-  /**
-   * Return a list of students
-   * @returns {Array} students
-   */
-
-  const students = [
-    { id: 1, name: 'Guillaume', location: "San Francisco" },
-    { id: 2, name: 'James', location: "Columbia" },
-    { id: 5, name: 'Serena', location: "San Francisco" },
-  ];
-  
-  return students;
-}
-
+const getListStudents = () => [
+  {
+    id: 1,
+    firstName: 'Guillaume',
+    location: 'San Francisco',
+  },
+  {
+    id: 2,
+    firstName: 'James',
+    location: 'Columbia',
+  },
+  {
+    id: 5,
+    firstName: 'Serena',
+    location: 'San Francisco',
+  },
+];
 
 export default getListStudents;
